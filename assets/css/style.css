@@ -13,12 +13,23 @@ body {
 
 .navbar{
 	background-color: #00548b;
-	height: 50px;
+	height:50px;
 	font-size:14px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	height:5%;
 }
+
 
 /* ----- Starting container styles ----- */
 
+.pokemons{
+	background-color: #0083c2;
+	color: #FFFFFF;
+	background-image: url(assets/images/bg.jpg);
+	height:80%;
+}
 
 /* ----- Starting footer styles ----- */
 
@@ -29,6 +40,10 @@ body {
 	text-align:center;
 	padding-top: 50px;
 	color: #ffffff;
+	border: 0;
+	border-radius: 0;
+	margin-top: 0;
+	height:15%;
 }
 
 .bg-2 { 
