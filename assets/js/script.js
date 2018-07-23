@@ -27,7 +27,7 @@ $(document).ready(function(){
 				retorno += '<strong> Id:</strong>';
 				retorno += ' '+data.id+'<br>';
 				retorno += '<strong> Tipo:</strong>';
-				retorno += ' '+data.type+'<br>';
+				retorno += ' '+data.types[0].type.name+'<br>';
 				$('#infoPikachu').html(retorno);
 			}
 		});
@@ -54,7 +54,7 @@ $(document).ready(function(){
 				retorno += '<strong> Id:</strong>';
 				retorno += ' '+data.id+'<br>';
 				retorno += '<strong> Tipo:</strong>';
-				retorno += ' '+data.type+'<br>';
+				retorno += ' '+data.types[0].type.name+'<br>';
 				$('#infoDitto').html(retorno);
 			}
 		});
@@ -81,7 +81,7 @@ $(document).ready(function(){
 				retorno += '<strong> Id:</strong>';
 				retorno += ' '+data.id+'<br>';
 				retorno += '<strong> Tipo:</strong>';
-				retorno += ' '+data.type+'<br>';
+				retorno += ' '+data.types[0].type.name+' / '+data.types[1].type.name;
 				$('#infoCharizard').html(retorno);
 			}
 		});
@@ -108,7 +108,7 @@ $(document).ready(function(){
 				retorno += '<strong> Id:</strong>';
 				retorno += ' '+data.id+'<br>';
 				retorno += '<strong> Tipo:</strong>';
-				retorno += ' '+data.type+'<br>';
+				retorno += ' '+data.types[0].type.name+' / '+data.types[1].type.name;
 				$('#infoLugia').html(retorno);
 			}
 		});
@@ -135,7 +135,7 @@ $(document).ready(function(){
 				retorno += '<strong> Id:</strong>';
 				retorno += ' '+data.id+'<br>';
 				retorno += '<strong> Tipo:</strong>';
-				retorno += ' '+data.type+'<br>';
+				retorno += ' '+data.types[0].type.name+'<br>';
 				$('#infoSquirtle').html(retorno);
 			}
 		});
