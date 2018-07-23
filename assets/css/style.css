@@ -27,8 +27,17 @@ body {
 .pokemons{
 	background-color: #0083c2;
 	color: #FFFFFF;
-	background-image: url(assets/images/bg.jpg);
 	height:80%;
+}
+
+.bg-pokes img{
+    opacity: 0.5;
+	width:200px;
+}
+
+
+.bg-pokes img:hover {
+    opacity: 1.0;
 }
 
 /* ----- Starting footer styles ----- */
